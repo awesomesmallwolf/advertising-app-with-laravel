@@ -1,6 +1,6 @@
 <?php
 
-namespace Rabol\Adsense;
+namespace Fredcarterwolf\Adsense;
 
 class AdsenseBuilder
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Rabol\Adsense;
+namespace Fredcarterwolf\Adsense;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -33,6 +33,6 @@ class AdsenseServiceProvider extends ServiceProvider
     public function register()
     {
         $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-        $loader->alias('Adsense', \Rabol\Adsense\AdsenseFacade::class);
+        $loader->alias('Adsense', \Fredcarterwolf\Adsense\AdsenseFacade::class);
     }
 }
